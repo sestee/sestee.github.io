@@ -1,0 +1,59 @@
+h1 {
+    text-align: center;
+    background-color: rgb(244, 183, 214);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    background-color: rgb(252, 232, 250);
+    padding: 12px;
+    margin: 0px;
+}
+
+nav li {
+    list-style-type:none;
+    background-color:black;
+    margin: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: lightgray;
+    padding: 25px;
+}
+
+nav a:hover {
+    color: palegoldenrod;
+    background-color: black;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 25px;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+footer { /*To remove white space, I used this code to bring to bottom and remove white space.*/
+    background-color: black;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+
+}
