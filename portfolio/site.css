@@ -1,0 +1,120 @@
+/*CSS for Homepage*/
+.special-gothic-expanded-one-regular {
+    font-family: "special gothic expanded one", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+img {border-radius: 5px;
+max-width: 100%;
+max-height: 100%;
+border:#F06BB2 5px solid;
+box-shadow: #D9CBF0 5px 5px 5px;
+float:center;
+}
+
+h2 {
+    text-align: center;
+    font-family: "special gothic expanded one", sans-serif;
+    color: white;
+    font-size: 2rem;
+    text-shadow:0 0px 3px rgb(255, 222, 245);
+    /*Signature font here*/
+}
+
+body {
+    background-image: radial-gradient(circle,#D9CBF0, #F06BB2, #92B2E9 , #F5B4EF, #37328F);
+    background-size: 400% 400%;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    outline: 5px solid transparent;
+    border-radius: 10px;
+    animation:  gradientAnimation 25s ease infinite;
+    animation-direction: alternate;
+  }
+
+@keyframes gradientAnimation {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+nav li {
+    list-style-type:none;
+    background-color:hotpink;
+    margin: 1rem;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 25px;
+}
+
+nav a:hover {
+    color: #37328F;
+    background-color: whitesmoke;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 222, 245);
+    padding: 25px;
+    margin: 0;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    font-family: "special gothic expanded one", sans-serif;
+}
+body {
+    text-align: center;
+    font-family: "special gothic expanded one", sans-serif;
+    color: white;
+}
+footer {
+    background-color:hotpink;
+    color: white;
+    text-decoration: wavy;
+    font-family: "special gothic expanded one", sans-serif;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    padding: 1rem;   
+}
+
+/*End of Homepage*/
+
+/*Start of Portfolio Page*/
+.x { 
+    text-align: center;
+}
+
+.x article {
+background-color:hotpink;/*Add lined paper as background?*/
+padding: 1rem;
+margin: 5rem;
+margin-bottom: 1.5rem;
+border: 3px solid rgb(255, 255, 255);
+border-radius: 5rem;
+box-shadow:rgb(255, 222, 245) 5px 5px 5px;
+}
+
+.x h1 {
+text-decoration: rounded;
+}
+
+/*End of Portfolio Page*/
+
+/*Start of Resume*/
+
+.p h2 {
+    background-color: white;
+    align-content: left;
+}

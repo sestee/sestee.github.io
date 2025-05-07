@@ -1,0 +1,129 @@
+
+
+
+/*Portfolio Start*/
+
+body {
+    background-color:rgb(235, 229, 254);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1rem;
+    color:black;
+        margin: 0;
+        background: rgb(238,174,202);
+        background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    }
+
+    h2.logo {background-color:thistle;
+        text-align: left;
+        width: 6rem;
+        height: 6rem;
+        display: grid;
+        align-items: center;
+        border-radius: 50%;
+        text-align: center;}
+
+
+
+header {text-align:right;
+background-color:black;}
+
+h1 {background-color:rgb(239, 231, 231); 
+    color:white; 
+    padding: 2rem;
+    text-align:center;}
+
+main {border: red 0px solid;
+    padding:1px;
+    margin:1px;}
+
+article {background-color:white;
+padding: 1.3rem;
+margin:.5rem;
+margin-bottom: 1.5rem;
+border: 1px solid black;
+border-radius: 1rem}
+
+footer {background-color:black;
+color:white;
+padding: 1rem;
+text-align: center;}
+
+a:link {color: #771d77}
+a:visited {color:blueviolet}
+a:hover {color:rgb(15, 56, 131)}
+a:active {color:rgb(153, 117, 215)}
+
+header a:link {color:white;
+text-decoration:none;}
+header a:visited {color:white;
+text-decoration:none;}
+header a:hover {color:white;
+text-decoration:underline;}
+header a:active {color:white;
+text-decoration:overline;}
+
+.wrapper {border: 2px solid rgb(0, 0, 0);
+margin: 0 auto;
+max-width: 40rem;
+filter: drop-shadow(.3rem .3rem .2rem #b9b9b9);}
+
+
+
+
+
+resume
+/*Resume Start*/
+
+.wrapper {
+    border: 3px solid black; 
+    display: grid;
+    grid-template-rows: 150px min-content min-content 1fr;
+    grid-template-columns: 2fr 5fr 2fr;
+    min-height: 100vh;
+}
+
+header {background-color:azure;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.emptyspaceleft { 
+    background-color: blanchedalmond;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+main {
+    background-color: rgb(255, 205, 250);
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+}
+
+.emptyspaceright {
+    background-color: rgb(255, 205, 250);
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+
+}
+
+footer {
+    
+    background-color: rgb(211, 211, 211);
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+/*End of Resume*/
+
+
