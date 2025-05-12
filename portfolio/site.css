@@ -1,103 +1,116 @@
 /*CSS for Homepage*/
 .special-gothic-expanded-one-regular {
-    font-family: "special gothic expanded one", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
+font-family: "special gothic expanded one", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
 
 img {border-radius: 5px;
 max-width: 100%;
-max-height: 100%;
+height: auto;
 border:#F06BB2 5px solid;
 box-shadow: #D9CBF0 5px 5px 5px;
-float:center;
+}
+
+sestee {
+text-align: center;
+background:rgb(255, 255, 255);
+}
+
+.sestee p {
+    background-color:#D92984;
+    line-height: 2rem;
+    padding: .5rem;
+    border-radius: 5rem;
+    margin: 1rem auto;
+    max-width: 600px;
+    box-shadow: #D9CBF0 5px 5px 5px;
 }
 
 h2 {
-    text-align: center;
-    font-family: "special gothic expanded one", sans-serif;
-    color: white;
-    font-size: 2rem;
-    text-shadow:0 0px 3px rgb(255, 222, 245);
-    /*Signature font here*/
+text-align: center;
+font-family: "special gothic expanded one", sans-serif;
+color: white;
+font-size: 2rem;
+text-shadow:0 0px 3px rgb(255, 222, 245);
 }
 
 body {
-    background-image: radial-gradient(circle,#D9CBF0, #F06BB2, #92B2E9 , #F5B4EF, #37328F);
-    background-size: 400% 400%;
-    background-origin: border-box;
-    background-clip: content-box, border-box;
-    outline: 5px solid transparent;
-    border-radius: 10px;
-    animation:  gradientAnimation 25s ease infinite;
-    animation-direction: alternate;
+background-image: radial-gradient(circle,#D9CBF0, #F06BB2, #92B2E9 , #F5B4EF, #37328F);
+background-size: 400% 400%;
+background-origin: border-box;
+background-clip: content-box, border-box;
+outline: 5px solid transparent;
+border-radius: 10px;
+animation:  gradientAnimation 25s ease infinite;
+animation-direction: alternate;
   }
 
 @keyframes gradientAnimation {
-    0% {background-position: 0% 50%;}
-    50% {background-position: 100% 50%;}
-    100% {background-position: 0% 50%;}
+0% {background-position: 0% 50%;}
+50% {background-position: 100% 50%;}
+100% {background-position: 0% 50%;}
 }
 
 nav li {
-    list-style-type:none;
-    background-color:hotpink;
-    margin: 1rem;
-    border-radius: 10px;
-    padding: 1rem;
+list-style-type:none;
+background-color:#D92984;
+margin: 1rem;
+border-radius: 10px;
+padding: 1rem;
 }
 
 nav a {
-    text-decoration: none;
-    color: white;
-    padding: 25px;
+text-decoration: none;
+color: white;
+padding: 25px;
 }
 
 nav a:hover {
-    color: #37328F;
-    background-color: whitesmoke;
+color: #000000;
+background-color: whitesmoke;
 }
 
 nav ul {
-    display: flex;
-    justify-content: center;
-    background-color: rgb(255, 222, 245);
-    padding: 25px;
-    margin: 0;
-    flex-wrap: wrap;
-    border-radius: 10px;
-    font-family: "special gothic expanded one", sans-serif;
+display: flex;
+justify-content: center;
+background-color: rgb(255, 222, 245);
+padding: 25px;
+margin: 0;
+flex-wrap: wrap;
+border-radius: 10px;
+font-family: "special gothic expanded one", sans-serif;
 }
+
 body {
-    text-align: center;
-    font-family: "special gothic expanded one", sans-serif;
-    color: white;
+text-align: center;
+font-family: "special gothic expanded one", sans-serif;
+color: white;
 }
+
 footer {
-    background-color:hotpink;
-    color: white;
-    text-decoration: wavy;
-    font-family: "special gothic expanded one", sans-serif;
-    grid-row-start: 3;
-    grid-row-end: 4;
-    grid-column-start: 1;
-    grid-column-end: 4;
-    text-align: center;
-    display: grid;
-    align-content: center;
-    justify-content: center;
-    padding: 1rem;   
+background-color:#D92984;
+color: white;
+text-decoration: wavy;
+font-family: "special gothic expanded one", sans-serif;
+grid-row-start: 3;
+grid-row-end: 4;
+grid-column-start: 1;
+grid-column-end: 4;
+text-align: center;
+display: grid;
+align-content: center;
+justify-content: center;
+padding: 1rem;   
 }
-
 /*End of Homepage*/
-
 /*Start of Portfolio Page*/
 .x { 
-    text-align: center;
+text-align: center;
 }
 
 .x article {
-background-color:hotpink;/*Add lined paper as background?*/
+background-color:#FFFF;
 padding: 1rem;
 margin: 5rem;
 margin-bottom: 1.5rem;
@@ -106,15 +119,90 @@ border-radius: 5rem;
 box-shadow:rgb(255, 222, 245) 5px 5px 5px;
 }
 
-.x h1 {
-text-decoration: rounded;
+.x p {
+    color:#D92984;
 }
 
+.port h1 {
+    background-color: #D92984;
+}
 /*End of Portfolio Page*/
 
 /*Start of Resume*/
-
 .p h2 {
+background-color: white;
+}
+.resum ol {
     background-color: white;
-    align-content: left;
+    color:#000000;
+    display: inline-block;
+    padding: 1rem, 1rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+.rfooter {
+background-color:white;
+}
+
+h2, h3, h4 {
+background-color:#FFFF;
+color: black; 
+padding: 1rem 1rem; 
+border-radius: 1rem; 
+display: inline-block; 
+margin-top: 1rem;
+margin-bottom: 1rem;
+}
+
+.resum p {
+background-color: white;
+text-align: center;
+color: black;
+padding: 0.75rem 1rem;
+border-radius: 1rem;
+margin: 0.5rem auto;
+width: 90%;
+max-width: 800px;
+line-height: 1.5; }      
+
+.resum li {
+color: black;
+line-height: 2;
+background-color: white;
+}
+.resum h1{
+    background-color: #D92984;
+}
+
+.resum ul {
+background-color:white;
+text-align: left;
+color: black;
+padding: 0.75rem 1rem;
+border-radius: 1rem;
+margin: .5rem auto;
+width: 50%;
+max-width: 800px;
+line-height: 1.5; 
+}
+/*End of Resume*/
+
+/*Start of Exercises*/
+
+.ex h1{
+background-color: #D92984;
+}
+
+.ex ul {
+background-color:#D92984;
+text-align: left;
+color: white;
+padding: 0.75rem 1rem;
+border-radius: 1rem;
+margin: .5rem auto;
+width: 50%;
+max-width: 500px;
+line-height: 3;
 }
